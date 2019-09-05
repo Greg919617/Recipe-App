@@ -7,8 +7,8 @@ import RecipeDetails from './components/RecipeDetails';
 class App extends Component {
   state = {
     recipes: recipes,
-    url: `https://www.food2fork.com/api/search?key=${process.env.REACT_APP_API_KEY}`,
-    base_url: `https://www.food2fork.com/api/search?key=${process.env.REACT_APP_API_KEY}`,
+    url: "https://www.food2fork.com/api/search?key=7568e5a2383470238392bc6d6b1d0a2b",
+    base_url: "https://www.food2fork.com/api/search?key=7568e5a2383470238392bc6d6b1d0a2b",
     details_id:35375,
     pageIndex: 1,
     search:'',
